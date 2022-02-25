@@ -1,0 +1,11 @@
+.custom-checkbox input, .custom-checkbox .checked {
+  display: none;
+}
+
+.player-card label {
+  margin-left: 1vw;
+}
+
+.player-album-img {
+  display: none;
+}

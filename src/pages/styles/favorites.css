@@ -1,0 +1,14 @@
+.favorites-container {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-top: 2vw;
+}
+
+.favorites-container .player-album-img {
+  border-radius: 50%;
+  display: inline;
+  margin-right: 2vw;
+  width: 5vw;
+}

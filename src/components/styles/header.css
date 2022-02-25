@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap') ;
+
+.top-content {
+  align-items: center;
+  background-color: #023031;
+  display: flex;
+  height: 7vw;
+  justify-content: space-between;
+}
+
+nav div {
+  align-items: center;
+  color: #6db797;
+  display: flex;
+  font-family: Roboto , Arial , Helvetica , sans-serif;
+  font-size: 2vw;
+  font-weight: 700;
+  height: 5vw;
+  justify-content: center;
+  width: 33.3vw;
+}
+
+.top-content div {
+  align-items: center;
+  background-color: white;
+  border-radius: 3vw;
+  display: flex;
+  height: 3vw;
+  justify-content: space-between;
+  margin-right: 4vw;
+}
+
+nav div:hover {
+  background-color: #036b52;
+  color: white;
+}
+
+.top-content p {
+  margin-left: 1vw;
+  margin-right: 1.7vw;
+}
+
+.user-icon {
+  aspect-ratio: 1;
+  background-color: #6db797;
+  border: 2px solid black;
+  border-radius: 50%;
+  height: 2vw;
+  margin-left: 0.2vw;
+  padding: 2px;
+}
+
+.top-content > img {
+  margin-left: 3vw;
+  max-height: 100%;
+  transform: translateY(-1.5vw);
+}
+
+nav {
+  align-items: center;
+  border-bottom: 1px solid #ccc;
+  display: flex;
+  height: 5vw;
+  justify-content: space-around;
+  width: 100%;
+}
+
+a {
+  text-decoration: none;
+}

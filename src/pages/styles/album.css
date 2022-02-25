@@ -1,0 +1,32 @@
+.musics-containter {
+  align-items: center;
+  display: flex;
+  justify-content: space-evenly;
+  padding-top: 5vw;
+  width: 100%;
+}
+
+.musics-containter > .album-card {
+  align-self: baseline;
+}
+
+.players-container {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+}
+
+.player-card {
+  align-items: center;
+  display: flex;
+  margin: 0.7vw 0;
+  padding: 0.5vw;
+}
+
+.player-card p {
+  margin-right: 2vw;
+}
+
+.player-card > input {
+  margin-left: 2vw;
+}
